@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .container{
+        background-color: blanchedalmond;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 2px;
+        padding: 3px;
+     }
+
+     #div1{
+        background-color: blue;
+        border: 2px solid lightcoral;
+        width: 200px;
+        margin: 5px;
+        padding: 2px;
+     }
+     #div2{
+        background-color: aqua;
+        border: 2px solid cornflowerblue;
+        width: 100px;
+        margin: 5px;
+        padding: 2px;
+    
+     }
+     img{
+        height: 100px;
+        margin: 5px;
+        padding: 2px;
+     }
+     @media (max-width:600px)
+     {
+        .container{
+          flex-direction: row;
+        }
+     }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+      <div id="div1">
+         <p>Hell0</p>
+        <p>Friends</p>
+
+      </div>
+<div id="div2">
+       <img src="p1.jpeg" alt="arun">
+</div>
+
+
+
+    </div>
+</body>
+</html>
